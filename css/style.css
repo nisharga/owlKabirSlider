@@ -1,8 +1,114 @@
-img{
+/* img{
 width: 100px;
 }
 
 .item{
 width: 200px;
 float: left;
+} */
+
+.item{
+    text-align: center;
 }
+ 
+  /* .owl-dots .owl-dot {
+    width: 10px;
+     display: inline-block;
+    height: 10px;
+    background: red !important;
+    margin-right: 5px;
+    border-radius: 50px;
+  } */
+  .slider-area .owl-dots{
+    position: relative;  
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+.slider-area .owl-dots button {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+  .slider-area .owl-dots .active{
+    background-color: #fc721e; 
+  }
+
+
+
+
+
+
+
+
+
+
+  
+.owl-nav {
+    position: relative;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: 0; 
+    top: -380px;
+    width: 100px !important;
+    height: 50px !important;
+    background: red; 
+    content: '';
+    font-size: 50px !important;
+    display: inline-block;  
+  }
+
+  .owl-nav .owl-next {
+    position: absolute;
+    right: 0;  
+    top: -380px;
+    width: 100px !important;
+    height: 50px !important;
+    background: blue;
+    color: yellow;
+    content: '';
+    font-size: 50px !important;
+    display: inline-block;
+  }
+
+  .singleItem{
+      width: 23%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      float: left;
+      overflow: hidden;
+      height: 180px;
+  }
+
+
+
+
+  /* responsive */
+  @media only screen and (max-width: 992px) {
+    .singleItem{
+        width: 31%; 
+        margin-right: 2%;
+      margin-bottom: 2%;
+      float: left;
+      overflow: hidden;
+      height: 180px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .singleItem{
+        width: 46%; 
+        margin-right: 2%;
+      margin-bottom: 2%;
+      float: left;
+      overflow: hidden;
+      height: 180px;
+    }
+  }
+  
